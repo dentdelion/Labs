@@ -1,0 +1,5 @@
+/home/lancea/test/test3/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/lancea/test/test3/bin/Debug/test3.exe.mdb
+/home/lancea/test/test3/bin/Debug/test3.exe
+/home/lancea/test/test3/obj/x86/Debug/test3.exe
+/home/lancea/test/test3/obj/x86/Debug/test3.exe.mdb
