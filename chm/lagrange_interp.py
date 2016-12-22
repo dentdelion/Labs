@@ -7,11 +7,11 @@ from numpy.linalg import inv, matrix_power
 import math
 import matplotlib.pyplot as plt
 
-x = np.arange(0, 15, 0.01)
-x1 = np.arange(0, 15, 0.1)
+x = np.arange(-3, 3, 0.01)
+x1 = np.arange(-3, 3, 0.1)
 
 def f(x):
-	return x**3 + 2*x*x + 7*x + 1
+	return np.sin(x) #x**3 + 2*x*x + 7*x + 1
 
 def lagrange(x, x_vals, y_vals):
 	lagrange_pol = 0;
@@ -27,7 +27,7 @@ def lagrange(x, x_vals, y_vals):
 	
 	return lagrange_pol
 
-x_vals1 = [1.0, 5.0, 10.0, 11.0]
+x_vals1 = [-3, -1.5, -0.5, 0, 0.5, 1.5, 3]
 x_vals = np.array(x_vals1)
 y_vals = np.array(map(f, x_vals1))
 
